@@ -48,7 +48,7 @@ public class LoginPageObjects
     @FindBy(xpath = "//option[text()='2 GB']")
     public WebElement ram_option;
 
-
+    //
     public LoginPageObjects(WebDriver driver)
     {
         this.driver= driver;
